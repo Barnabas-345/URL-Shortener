@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Mongo & Express URL Shortener Microservice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="title">
+      <h1>MongoDB, Mongoose & Express URL Shortener Microservice</h1>
+    </div>
+    <div class="Try It Out">
+      <h2>TRY IT OUT</h2>
+      <form
+        id="urlInputForm"
+        method="POST"
+        action="/api/shorturl/"
+        target="_blank"
+        rel="noopener noreferrer"
+        )
+      >
+        <div class="input-area">
+          Insert url here (http:// required)
+          <input name="urlInput" placeholder="http://www.yourlink.com" />
+        </div>
+        <div class="submit-area">
+          <input class="submit-button" type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+
+    <div class="project-details">
+      <h2>DETAILS</h2>
+
+      <li>Submit a valid URL in the form above.</li>
+      <li>
+        For a valid url the api returns a JSON with the original url and the
+        shortened URL:
+      </li>
+      <p class="example-result">
+        {"original_url": "http://www.exampleUrl.com" ,"short_url":
+        "root_url/a/addlurl"}
+      </p>
+      <li>
+        Clicking on the url link will redirect you to the same website as the
+        original link
+      </li>
+
+      <li>Providing an invalid URL will return the following JSON:</li>
+      <p class="example-result">{"error": "invalid URL" }</p>
+    </div>
+
+    <div class="example">
+      <h2>EXAMPLE (click on the link)</h2>
+
+      <li>Sample Input</li>
+      <p>http://www.google.com</p>
+      <li>Sample JSON Output</li>
+      <p>
+        {"original_url": "http://www.google.com" ,"short_url": "root_url/a/1"}
+      </p>
+      <li>Sample Working Link</li>
+      <a href="/a/1" target="_blank" rel="noopener noreferrer"
+        >[root_url]/a/1
+      </a>
+    </div>
+
+    <div class="author">
+      <h2>AUTHOR</h2>
+      <p>Coded by: oche</p>
+      <p>Email: ejeoyibarnabas@gmail.com</p>
+      <p>For MongoDB, Mongoose, Express and NodeJS demo purposes only</p>
+    </div>
+  </body>
+</html>

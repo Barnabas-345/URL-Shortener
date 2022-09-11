@@ -1,0 +1,49 @@
+body {
+  background-color: #222;
+  color: #ddd;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  margin: 30px 0 10px 0;
+}
+
+.input-area {
+  font-weight: bold;
+}
+input {
+  font-size: inherit;
+}
+
+.submit-button {
+  margin-top: 10px;
+  font-size: 18px;
+  -webkit-appearance: none;
+}
+
+li {
+  margin: 20px 0 10px 0;
+  font-weight: bold;
+}
+
+a:link {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.author {
+  font-weight: bold;
+}

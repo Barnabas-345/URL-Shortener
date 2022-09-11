@@ -1,0 +1,32 @@
+{
+  "name": "mongo-express-node-url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "Provides a shortened URL link",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "express",
+    "node",
+    "mongoose",
+    "url",
+    "shortener"
+  ],
+  "author": "Niccolo Lampa",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.14"
+  },
+  "devDependencies": {
+    "dotenv": "^6.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Barnabas-345/mongo-express-node-url-shortener-microservice.git"
+  }
+}
